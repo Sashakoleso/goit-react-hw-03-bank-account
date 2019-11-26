@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 500px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.buttonText {
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 130px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 132, 255);
+}
+.sectionBtn {
+  width: 200px;
+  border-radius: 4px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: black;
+  background-color: rgb(211, 211, 211);
+}
+.balance {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 30px;
+}
+.tickup {
+  font-size: 20px;
+  color: green;
+}
+.tickdown {
+  font-size: 20px;
+  color: rgb(211, 0, 0);
+}
+.totalBalance {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.transactionH {
+  border: 1px solid black;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+}
+td.type {
+  text-transform: capitalize;
+  width: 200px;
+  height: 60px;
+  border: 1px solid black;
+}
+.amount {
+  width: 200px;
+  height: 60px;
+  border: 1px solid black;
+}
+.date {
+  width: 200px;
+  height: 60px;
+  border: 1px solid black;
+}
+.theader {
+  text-transform: uppercase;
+  background-color: rgb(96, 148, 226);
+}
