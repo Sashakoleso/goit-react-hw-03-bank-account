@@ -15,10 +15,14 @@ export default class Dashboard extends Component {
 
   componentDidMount() {
     const saved = localStorage.getItem('transactions');
-    const balance = localStorage.getItem('balance');
-    if (saved, balance) {
-      const transactions = JSON.parse(saved, balance);
+    const localBalance = localStorage.getItem('balance');
+    if (saved) {
+      const transactions = JSON.parse(saved);
       this.setState({ transactions });
+    }
+    if (localBalance) {
+      const balance = JSON.parse(localBalance);
+      this.setState({ balance });
     }
   }
 
